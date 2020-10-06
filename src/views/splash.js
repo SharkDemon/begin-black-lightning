@@ -5,6 +5,13 @@ module.exports = function Aside (props) {
   let service = props.service || ''
   let credit = props.credit || ''
 
+  //${PhotoCredit({
+  //  photographer,
+  //  service,
+  //  credit
+  //})}
+
+
   return `
 <aside
   class="
@@ -17,11 +24,6 @@ module.exports = function Aside (props) {
     flex-grow-1-large
   "
 >
-  ${PhotoCredit({
-    photographer,
-    service,
-    credit
-  })}
 </aside>
   `
 }
